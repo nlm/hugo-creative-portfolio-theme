@@ -1,1 +1,19 @@
 /* your styles go here */
+img.site-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+#sidebar {
+  background-image: url(images/vribbon-blue.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -80px;
+  filter: hue-rotate(100);
+}
+
+h1.sidebar-heading {
+  text-align: center;
+  margin-bottom: 150px;
+}

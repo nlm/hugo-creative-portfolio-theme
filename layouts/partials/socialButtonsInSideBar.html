@@ -19,6 +19,11 @@
     <i class="fa fa-instagram"></i>
   </a>
   {{end}}
+  {{ with .Site.Params.social.keybase }}
+  <a href="{{ . }}" title="" class="external keybase">
+    <i class="fa fa-key"></i>
+  </a>
+  {{end}}
   {{ with .Site.Params.social.email }}
   <a href="mailto:{{ . }}" data-animate-hover="pulse" class="email">
     <i class="fa fa-envelope"></i>
