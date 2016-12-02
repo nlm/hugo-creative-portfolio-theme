@@ -19,6 +19,11 @@
     <i class="fa fa-instagram"></i>
   </a>
   {{end}}
+  {{ with .Site.Params.social.linkedin }}
+  <a href="{{ . }}" title="" class="linkedin">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  {{end}}
   {{ with .Site.Params.social.keybase }}
   <a href="{{ . }}" title="" class="keybase">
     <i class="fa fa-key"></i>
